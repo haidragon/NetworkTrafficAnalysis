@@ -1,1 +1,13 @@
-签收的
+# 参考链接
+* https://www.freebuf.com/column/162403.html
+* http://www.simonroses.com/2015/12/fristileaks-1-3-ctf-writeup/
+* 说明我这边是用的第二个链接的mac地址，同时用的NAT模式
+# 分析
+* 上传木马
+* ![avatar](https://github.com/haidragon/NetworkTrafficAnalysis/blob/master/ctf/FristiLeaks%20v1.3%E9%9D%B6%E6%9C%BA/images/%E4%B8%8A%E4%BC%A0%E9%A9%AC.png)
+* 命令执行
+* ![avatar](https://github.com/haidragon/NetworkTrafficAnalysis/blob/master/ctf/FristiLeaks%20v1.3%E9%9D%B6%E6%9C%BA/images/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C.png)
+* 枚举目录
+* ![avatar](https://github.com/haidragon/NetworkTrafficAnalysis/blob/master/ctf/FristiLeaks%20v1.3%E9%9D%B6%E6%9C%BA/images/%E6%9E%9A%E4%B8%BE%E7%9B%AE%E5%BD%95.png)
+* 端口扫描
+* ![avatar](https://github.com/haidragon/NetworkTrafficAnalysis/blob/master/ctf/FristiLeaks%20v1.3%E9%9D%B6%E6%9C%BA/images/%E7%AB%AF%E5%8F%A3%E6%89%AB%E6%8F%8F.png)
