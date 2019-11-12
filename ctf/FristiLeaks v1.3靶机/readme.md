@@ -1,7 +1,7 @@
 # 参考链接
 * https://www.freebuf.com/column/162403.html
 * http://www.simonroses.com/2015/12/fristileaks-1-3-ctf-writeup/
-* 说明我这边是用的第二个链接的mac地址，同时用的NAT模式
+* 说明:我这边是用的第二个链接的mac地址，同时用的NAT模式
 # 分析
 * 上传木马
 * ![avatar](https://github.com/haidragon/NetworkTrafficAnalysis/blob/master/ctf/FristiLeaks%20v1.3%E9%9D%B6%E6%9C%BA/images/%E4%B8%8A%E4%BC%A0%E9%A9%AC.png)
