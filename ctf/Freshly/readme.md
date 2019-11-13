@@ -21,8 +21,8 @@
 * scp -r root@107.172.27.254:/home/test .  //下载目录
 * 
 * scp -r test root@107.172.27.254:/home   //上传目录
-* 6.鞋机我这只能用vmbox打开了，vmware是一直报错，然后俩个不同的虚拟机可能网段不一样，按理全选桥接应该是一个网段的但是有时也不一样，我就一直重启直到俩个虚拟机网段一样，实现不行用vmbox也跑kali(vmware桥接无法分配ip 找到编辑->虚拟机网络编辑器->找到桥接模式那一行的外部链接要选种主机的网卡)。
-* 7.鞋机apache2服务器有问题，8080与443端口没打开，我就直接翻他的配置文件了，在 /etc/apache2/sites-available/000-default.conf 中有 /var/www/html。
+* 6.靶机我这只能用vmbox打开了，vmware是一直报错，然后俩个不同的虚拟机可能网段不一样，按理全选桥接应该是一个网段的但是有时也不一样，我就一直重启直到俩个虚拟机网段一样，实现不行用vmbox也跑kali(vmware桥接无法分配ip 找到编辑->虚拟机网络编辑器->找到桥接模式那一行的外部链接要选种主机的网卡)。
+* 7.靶机apache2服务器有问题，8080与443端口没打开，我就直接翻他的配置文件了，在 /etc/apache2/sites-available/000-default.conf 中有 /var/www/html。
 * 8.sqlmap无法更新
 * 解决方法： 找到sqlmap的路径/usr/share/salmap
 * 
@@ -47,3 +47,5 @@
 * sqlmap -u "http://192.168.0.174/login.php" --form --level 3 -D wordpress8080 -T users -C "password,username" --dump
 * ![avatar](https://github.com/haidragon/NetworkTrafficAnalysis/blob/master/ctf/Freshly/images/user-pass.png)
 * ![avatar](https://github.com/haidragon/NetworkTrafficAnalysis/blob/master/ctf/Freshly/images/sqlmap.png)
+* ![avatar](https://github.com/haidragon/NetworkTrafficAnalysis/blob/master/ctf/Freshly/images/http.png)
+* ![avatar](https://github.com/haidragon/NetworkTrafficAnalysis/blob/master/ctf/Freshly/images/cve.png)
