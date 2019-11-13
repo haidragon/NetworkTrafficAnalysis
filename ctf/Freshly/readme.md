@@ -1,3 +1,6 @@
+# 参考
+* https://www.freebuf.com/column/162631.html
+* https://www.jianshu.com/p/63becdb8c2f8
 # 一些环境问题
 * 破解密码(为什么要破解是当时俩台虚拟机不在同一个虚拟软件上一直没有扫到对应mac的主机)。
 * 1.在没有进入引导前光标切进去长按shift进入grub。
