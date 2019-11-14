@@ -9,7 +9,7 @@
 *  sudo apt-get install openssh-server  
 * ps -e | grep ssh
 * sudo /etc/init.d/ssh resart
-* 3.开启ssh root登录。
+* 3.开启ssh root登录。 vi /etc/ssh/sshd_config
 * 4.用tcpdump
 * tcpdump -D 
 * tcpdump -i eth0 -w file.cap
