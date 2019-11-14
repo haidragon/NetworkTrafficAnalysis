@@ -8,7 +8,7 @@
 * sudo apt-get update 
 *  sudo apt-get install openssh-server  
 * ps -e | grep ssh
-* sudo /etc/init.d/ssh resart
+* sudo /etc/init.d/ssh restart
 * 3.开启ssh root登录。 vi /etc/ssh/sshd_config
 * 4.用tcpdump
 * tcpdump -D 
